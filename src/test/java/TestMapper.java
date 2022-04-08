@@ -56,8 +56,8 @@ public class TestMapper {
                 empMapper.insertSelective(new Emp(null,name,"女",name+"@edu.com",d_id));
             }
         }*/
-        System.out.println("hot-fix add");
+        /*System.out.println("hot-fix add");
         System.out.println("master add");
-        System.out.println("hot-fix add-2");
+        System.out.println("hot-fix add-2");*/
     }
 }
