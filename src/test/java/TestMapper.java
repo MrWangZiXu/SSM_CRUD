@@ -47,7 +47,7 @@ public class TestMapper {
         /**
          * 批量插入
          */
-        for (int i = 0; i < 333; i++) {
+        /*for (int i = 0; i < 333; i++) {
             String name = UUID.randomUUID().toString().substring(1, 5)+i;
             int d_id = (int)(Math.random() * 5 + 1);
             if (i%2!=0){
@@ -55,6 +55,7 @@ public class TestMapper {
             }else {
                 empMapper.insertSelective(new Emp(null,name,"女",name+"@edu.com",d_id));
             }
-        }
+        }*/
+        System.out.println("hot-fix add");
     }
 }
